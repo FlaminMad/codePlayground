@@ -17,8 +17,8 @@ import time
 #      how long until this assignment is due.
 #
 # B.  Extend the program such that exactly 3 seconds after
-#	   telling the user the remaining time, they are given
-#	   a warning that its Friday the 13th.
+#      telling the user the remaining time, they are given
+#      a warning that its Friday the 13th.
 #
 # C.  If you have not already, comment your code.
 #
