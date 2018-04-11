@@ -1,0 +1,21 @@
+#!/usr/bin/env python
+"""
+@author: Alexander D Leech
+@date:   11/04/2018
+@rev:    1
+@lang:   Python 2.7
+@deps:   time
+@desc:   Submission for assignment one part A
+"""
+
+def addNumbers():                     #Our function to add numbers
+  num1 = float(input('Number 1: '))   #Input number 1 as a float
+  num2 = float(input('Number 1: '))   #Input number 2 as a float
+  return (num1 + num2)                #return the two numbers added together
+  
+def main():
+  while(True):                        #Use a loop so that the user can keep entering numbers
+    print("\nInput Numbers To Add")   #Tell the user whats going on
+    print(addNumbers())               #Print the result of function 'addNumbers'
+    
+if __name__ == '__main__': main()     #See main template for reason
