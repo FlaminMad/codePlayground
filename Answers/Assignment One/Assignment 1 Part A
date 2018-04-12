@@ -10,7 +10,7 @@
 
 def addNumbers():                     #Our function to add numbers
   num1 = float(input('Number 1: '))   #Input number 1 as a float
-  num2 = float(input('Number 1: '))   #Input number 2 as a float
+  num2 = float(input('Number 2: '))   #Input number 2 as a float
   return (num1 + num2)                #return the two numbers added together
   
 def main():
