@@ -1,0 +1,34 @@
+#!/usr/bin/env python
+"""
+@author: Alexander D Leech
+@date:   11/04/2018
+@rev:    1
+@lang:   Python 2.7
+@deps:   time
+@desc:   Submission for assignment one part A
+"""
+
+def performOp(op, num1, num2):
+  if op == "1":                             #If user selected option 1...
+    return addNumbers(num1, num2)           #Return the result of the addNumbers functon
+  elif op == "2":                           #Else If user selected option 2...
+    return subNumbers(num1, num2)           #Return the result of the subNumbers functon
+  else:
+    return "Not a valid operation"          #Inform the user they selected incorrectly
+
+def addNumbers(num1, num2):                 #Function to add two numbers
+  return (num1 + num2)                      #Return the two numbers added together
+
+def subNumbers(num1, num2):                 #Function to subtract two numbers
+  return (num1 - num2)                      #Return the two numbers subtracted together
+
+def main():
+  while(True):                              #Use a loop so that the user can keep entering numbers
+    print("\nPython Calculator V1.0")       #Tell the user whats going on
+    num1 = float(raw_input('Number 1: '))   #Input number 1 as a float
+    num2 = float(raw_input('Number 2: '))   #Input number 2 as a float
+    print("1 = Addition\n2 = Subtraction")  #Options for operations (\n is new line)
+    op = raw_input('Selection: ')           #Ask for input
+    print(performOp(op,num1,num2))          #Print the result of function 'addNumbers'
+    
+if __name__ == '__main__': main()           #See main template for reason
