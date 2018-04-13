@@ -12,6 +12,10 @@ For beginners its recommended using the website repl.it to develop your code. Al
 When you get more advanced, installing python can be very useful and dedicated IDE's such as Sypder are avaliable to help run and debug code.
 Another alternative is to use a Raspberry Pi for development. This comes with python and can act as a nice platform for testing.
 
+### Submission:
+To 'submit' an assignment for checking, create a github account repository and upload it into a folder named 'Assignment x' where x is the number of the assignment. I would recommend creating separate files for part A, B, C etc of each assignment so its easy to check and build upon. This also allows me to see your development logic.
+Let me know by email/message when your ready for checking. If you follow me on Github I will keep and eye out for answer files appearing and actively mark.
+
 ### Learning Resources:
 Google is your friend.
 Its once once stated to me by a programmer I have a deep respect for that it is impossible to code without the internet. As a programmer, you are in no way shape or form expected to remember all the commands. You are however expected to have a logical mindset that can derive how a problem should be solved, and then implement the solution. Although there are thousands of ways to complete each of the assignments given, you need to think to yourself, 'How can I do this in the most efficient way possible?'. If that involves google or asking for advice, then so be it. Everyday is a school day.
