@@ -7,7 +7,7 @@
 @lang:   Python 2.7
 @deps:   <None>
 @desc:   Assignment two
-		 Due 13/04/18 23:59
+	 Due the Friday after you start at 23:59
 """
 
 import time
@@ -18,7 +18,7 @@ import time
 #
 # B.  Extend the program such that exactly 3 seconds after
 #      telling the user the remaining time, they are given
-#      a warning that its Friday the 13th.
+#      a warning that its a Friday.
 #
 # C.  If you have not already, comment your code.
 #
@@ -30,4 +30,3 @@ import time
 #  sight"
 
 print("Open source, open mind")
-
